@@ -94,7 +94,7 @@ def build_weather_message(data, location_name="your area"):
 
     templates = {
         "pagi": f"Pagi ini di {location_name} cuaca {cond}, sekitar {temp}°C.",
-        "siang": f"Siang hari di {location_name} dengan {cond} dan suhu sekitar {temp}°C.",
+        "siang": f"Siang hari di {location_name} dengan cuaca {cond} dan suhu sekitar {temp}°C.",
         "sore": f"Sore di {location_name}, {cond} dengan temperature {temp}°C.",
         "malam": f"Malam di {location_name}, keadaan {cond} dengan suhu {temp}°C."
     }
